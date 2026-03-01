@@ -1,8 +1,99 @@
 .index-page {
-    img + .icon.outbound {
+  img + .icon.outbound {
     display: none;
-    }
-    a > .icon.outbound {
+  }
+  a > .icon.outbound {
     display: none;
+  }
+
+  .hero {
+    padding-bottom: 1rem;
+
+    img {
+      max-width: 260px;
     }
+
+    .description {
+      font-size: 1.1rem;
+      color: #6b7280;
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+.project-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+
+  & + .project-section {
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.section-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #9ca3af;
+  margin: 0 0 1rem;
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 0 0 2rem;
+}
+
+.project-card {
+  flex: 1;
+  min-width: 220px;
+  max-width: 260px;
+  text-decoration: none !important;
+  color: inherit;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 1.75rem 1.5rem;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  display: block;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 16px 40px rgba(22, 211, 201, 0.18);
+    border-color: #16D3C9;
+  }
+
+  h3 {
+    margin: 0 0 0.6rem;
+    font-size: 1.2rem;
+    color: #111827;
+  }
+
+  p {
+    margin: 0 0 1.25rem;
+    font-size: 0.92rem;
+    color: #6b7280;
+    line-height: 1.65;
+  }
+
+  .project-link {
+    color: #16D3C9;
+    font-weight: 600;
+    font-size: 0.88rem;
+    letter-spacing: 0.01em;
+  }
+}
+
+
+
+@media (max-width: 600px) {
+  .project-card {
+    max-width: 100%;
+  }
 }
