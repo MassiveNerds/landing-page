@@ -34,5 +34,10 @@ pageClass: index-page
       <p>Track peptides, medications, and supplements. Manage your inventory, build dosing protocols, and log against a generated schedule.</p>
       <span class="project-link">Open app →</span>
     </a>
+    <a class="project-card" href="https://wordythebyrd.github.io/duck-race/">
+      <h3>Duck Race</h3>
+      <p>Race rubber ducks with randomized accessories, physics-based speed variations, and confetti celebrations. Name your ducks, set the distance, and watch them waddle to glory.</p>
+      <span class="project-link">Open app →</span>
+    </a>
   </div>
 </div>
